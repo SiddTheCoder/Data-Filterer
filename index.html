@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Filterer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="main-box">
+        <div class="left">
+            <div class="header-bsc">Filter Your Data within seconds</div>
+            <div class="userInputField">
+                <textarea id="userInput" type="text" class="userData" placeholder="Paste Your Raw Data ..."></textarea>
+            </div>
+            <div class="btns">
+                <button id="lettersOnly" class="cmd-giver-btn">Letters Only</button>
+                <button id="NumbersOnly" class="cmd-giver-btn">Numbers Only</button>
+                <button id="characatersOnly" class="cmd-giver-btn">Characters Only</button>
+                <button id="lettersAndNumbersOnly" class="cmd-giver-btn">Letter & Numbers Only</button>
+                <button id="lettersAndCharactersOnly" class="cmd-giver-btn">Letter & Characters Only</button>
+                <button id="numbersAndCharaccotersOnly" class="cmd-giver-btn">Numbers & Characters Only</button>
+            </div>
+        </div>
+        <div class="right">
+            <div id="outputField"></div>
+            <hr>
+            <div id="garbage-field"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <!-- <script src="index.js"></script> -->
+</body>
+</html>
